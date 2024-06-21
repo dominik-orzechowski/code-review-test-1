@@ -32,8 +32,10 @@ export const getFormattedDate = (
   variant: DatePicketVariantUnion,
   date: Date,
 ) => {
+  const day = 'numeric';
+  console.log('day: ', day);
   const dateFormatOptions = {
-    day: 'numeric',
+    day,
     month: 'long',
     year: 'numeric',
   };
