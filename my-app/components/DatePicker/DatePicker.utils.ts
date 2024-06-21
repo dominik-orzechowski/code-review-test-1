@@ -5,6 +5,10 @@ import {
 import {getStartEndDates} from '@/utils/date';
 import {add, addDays, addMonths, addWeeks, isBefore, sub} from 'date-fns';
 
+const test = () => {
+  console.log(123123);
+}
+
 export const getPreviousDay = (currentDate: Date) => {
   return sub(currentDate, {days: 1});
 };
