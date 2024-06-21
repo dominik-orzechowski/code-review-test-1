@@ -4,6 +4,7 @@ import {Fragment} from "react";
 import {InstallationFormPage} from "@/components/InstallationFormPage";
 
 export default function Home() {
+  console.log('hello');
   return <Fragment>
     <Text></Text>
     <InstallationFormPage/>
